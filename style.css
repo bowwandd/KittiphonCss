@@ -1,0 +1,94 @@
+h2{
+    color: green
+}
+p{
+    color: aqua;
+    text-align: center;
+    background-color: #26bb69;
+}
+.title{
+    color:rgb(139, 15, 73);
+    text-align: right;
+    font-size: 70px;
+}
+body {
+    background-image: url("images.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+#techer{
+    font-size: 90px;
+    color: crimson;
+    text-align: center;
+    background-color: aqua;
+    padding: 50px;
+}
+p.error{
+color: rosybrown;
+font-size: 20px;
+font-weight: bold;
+}
+P.success{
+color: darkolivegreen;
+font-size: 20px;
+font-weight: bolder;
+}
+
+div{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+#box{
+    background-color: rgb(139, 15, 73);
+}
+#box2{
+    background-color: darkcyan;
+}
+#box3{
+    background-color: seagreen;
+}
+#box4{
+    background-color: gold;
+}
+#box5{
+    background-color: thistle;
+}
+.nav{
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    clear: left;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 30px;
+}
+img{
+    border-radius: 50%;
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+    opacity: 0.5;
+}
+div.hover{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+div.hover:hover{
+    width: 300px;
+    background-color: rgb(40, 139, 15);
+}
+.button{
+    background-color: blue;
+    color: wheat;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+}
